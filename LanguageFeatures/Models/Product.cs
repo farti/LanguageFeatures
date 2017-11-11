@@ -14,5 +14,10 @@ namespace LanguageFeatures.Models
             get { return name; }
             set { name = value; }
         }
+
+        public int ProductID { get; internal set; }
+        public string Description { get; internal set; }
+        public decimal Price { get; internal set; }
+        public string Category { get; internal set; }
     }
 }
